@@ -1,0 +1,338 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Hyper Cache 3.0.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/lite-cache\n"
+"POT-Creation-Date: 2009-09-29 15:57+0000\n"
+"PO-Revision-Date: 2014-08-23 14:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: it_IT\n"
+
+#: options.php:55
+msgid ""
+"Unable to write the <code>wp-content/advanced-cache.php</code> file. Check "
+"the file or folder permissions."
+msgstr ""
+
+#: options.php:66
+#, php-format
+msgid ""
+"Options deleted. You can now deactivate the plugin and proceed with its "
+"removal."
+msgstr "Opzioni cancellate. Ora puoi disattivare e disinstallare Lite Cache."
+
+#: options.php:100
+msgid "Cache size:"
+msgstr "Dimensione della cache:"
+
+#: options.php:125
+#, php-format
+msgid ""
+"<a href=\"http://www.satollo.net/plugins/lite-cache\" target=\"_blank\">Get "
+"Help</a>"
+msgstr ""
+"<a href=\"http://www.satollo.net/plugins/lite-cache\" target=\"_blank"
+"\">Aiuto</a>"
+
+#: options.php:126
+#, php-format
+msgid "<a href=\"http://www.satollo.net/forums\" target=\"_blank\">Forum</a>"
+msgstr ""
+"<a href=\"http://www.satollo.net/plugins/lite-cache\" target=\"_blank\">Get "
+"Help</a>"
+
+#: options.php:130
+msgid "Cache size"
+msgstr "Dimensione cache"
+
+#: options.php:128
+msgid "Subscribe to satollo.net"
+msgstr "Iscriviti a Satollo.net"
+
+#: options.php:136
+#, php-format
+msgid ""
+"<a href=\"http://www.satollo.net/donations\" target=\"_blank\">Even <b>1$</"
+"b> helps: read more</a>"
+msgstr ""
+"<a href=\"http://www.satollo.net/donations\" target=\"_blank\">Anche <b>1€</"
+"b> aiuta: leggi di più</a>"
+
+#: options.php:147
+#, php-format
+msgid ""
+"You must add to the file wp-config.php (after the <code>define(\"WPLANG\", "
+"\"\");</code>) the line of code: <code>define(\"WP_CACHE\", true);</code>"
+msgstr ""
+"Devi aggiungere al file wp-config.php (dopo la riga <code>define(\"WPLANG\", "
+"\"\");</code>) il codice: <code>define(\"WP_CACHE\", true);</code>"
+
+#: options.php:155
+msgid "You must save the options since some files must be updated."
+msgstr "E' necessario salvare le opzioni per attivare la cache."
+
+#: options.php:163
+msgid "Lite Cache was not able to create or find the"
+msgstr "Lite Cache non è stato in grado di creare o trovare la"
+
+#: options.php:165
+msgid ""
+"folder, please create it manually with list, write and read permissions "
+"(usually 777)."
+msgstr "cartella: creala manualmente."
+
+#: options.php:171
+#, php-format
+msgid ""
+"You should choose a different <a href=\"options-permalink.php\" target="
+"\"_blank\"> permalink structure under the Permalink panel</a> otherwise "
+"Hyper Cache cannot work properly."
+msgstr ""
+
+#: options.php:183
+#, php-format
+msgid ""
+"All your questions should be answered on <a href=\"http://www.satollo.net/"
+"plugins/lite-cache\" target=\"_tab\">Lite Cache official page</a> (open in a "
+"new tab)."
+msgstr ""
+"Tutte le domande dovrebbero essere risposte sulla <a href=\"http://www."
+"satollo.net/plugins/lite-cache\" target=\"_tab\">pagina ufficiale di Lite "
+"Cahce</a> (apre in uno nuova finestra)."
+
+#: options.php:186
+#, php-format
+msgid "Clean the whole cache"
+msgstr "Svuota la cache"
+
+#: options.php:187
+msgid "Clean home"
+msgstr "Invalida la home"
+
+#: options.php:188
+msgid "Compute the cache size"
+msgstr "Calcola la dimensione"
+
+#: options.php:193
+msgid "Configuration"
+msgstr "Configurazione"
+
+#: options.php:194
+msgid "Mobile"
+msgstr "Mobile"
+
+#: options.php:196
+msgid "Advanced"
+msgstr "Avanzate"
+
+#: options.php:211
+msgid "Cached pages will be valid for"
+msgstr "Una pagina sarà valida per"
+
+#: options.php:213 #: options.php:214
+msgid "hours"
+msgstr "ore"
+
+#: options.php:219
+msgid "Cache even for logged in users?"
+msgstr "Attiva la cache per utenti connessi?"
+
+#: options.php:221
+msgid "NOT RECOMMENDED!"
+msgstr "NON RACCOMANDATO!"
+
+#: options.php:222
+#, php-format
+msgid ""
+"<div class=\"hints\">See <a href=\"http://www.satollo.net/plugins/lite-cache"
+"\">this page</a> to disable the cache if you are the administrator</div>"
+msgstr ""
+
+#: options.php:226
+msgid "URLs to exclude from cache"
+msgstr "URLs che Lite Cache deve ignorare"
+
+#: options.php:286
+msgid "0 means forever."
+msgstr "0 significa \"per sempre\""
+
+#: options.php:228
+msgid "One per line"
+msgstr "Uno per linea"
+
+#: options.php:255
+msgid "Mode"
+msgstr "Modo"
+
+#: options.php:258
+msgid "[disabled] Do not detect mobile devices"
+msgstr "[disabilita] Non riconoscere i dispositivi mobili"
+
+#: options.php:259
+msgid "[enabled] Detect mobile devices and use a separate cache"
+msgstr "[abilitata] Riconosci i dispositivi mobile e crea una cache separata"
+
+#: options.php:260
+msgid "[enabled] Detect mobile devices and bypass the cache"
+msgstr "[enabled] Riconosci i dispositivi mobile ma non usare la cache"
+
+#: options.php:262
+msgid ""
+"It make sense to disable the cache for mobile devices when their traffic is "
+"very low."
+msgstr ""
+"Ha senso disabilitare la cache per dispositivi mobili se fanno poco traffico"
+
+#: options.php:267
+msgid "Mobile theme"
+msgstr "Tema per dispositivi mobili"
+
+#: options.php:271
+msgid "Use the active blog theme"
+msgstr "Usa il tema corrente del blog"
+
+#: options.php:277
+#, php-format
+msgid ""
+"Even if the active blog theme is used for mobile devices, if some plugins "
+"create different content layout for mobile devices so you MUST set the "
+"caching option to \"use a separate cache\"."
+msgstr ""
+"Anche se non usi un tema per il mobile, alcuni plugin potrebbero generare "
+"contenuti diversi per desktop e mobile. In questo caso è meglio riconoscere "
+"i dispositivi mobili."
+
+#: options.php:282
+msgid "Mobile agents"
+msgstr "\"User agents\" dei dispositivi mobili"
+
+#: options.php:285
+#, php-format
+msgid ""
+"Must be lower case and separated by the pipe (|) symbol. No single quotes or "
+"spaces! A default value can be"
+msgstr ""
+
+#: options.php:296
+#, php-format
+msgid ""
+"This mode works only if you are using the .htaccess file in your blog. "
+"Modify it adding the piece of code below just before the part delimited by "
+"\"# BEGIN WordPress\". This working mode has some limits and cannot be used "
+"with logged in user cache option enabled."
+msgstr ""
+
+#: options.php:298
+msgid ""
+"<strong>Warning</strong>! When you change the option above to cache for "
+"logged in users too, this code change too!"
+msgstr ""
+
+#: options.php:381
+msgid "Disable compression"
+msgstr "Disabilita la compressione"
+
+#: options.php:384
+msgid "No"
+msgstr "No"
+
+#: options.php:385
+msgid "Yes"
+msgstr "Sì"
+
+#: options.php:388
+msgid ""
+"Disable the compression if you got page served which results in a lot of odd "
+"characters. <strong>If change this setting you MUST clear the cache</strong>."
+msgstr ""
+"Disabilita la compressione se vedi che le pagine sul browser sono "
+"illeggibili. Devi anche svuotare la cache."
+
+#: options.php:393
+msgid "Disable \"commentator\" optimization"
+msgstr "Disabilita l'ottimizzatore per i commentatori"
+
+#: options.php:398
+msgid ""
+"Lite Cache is able to work with users who left a comment and completes the "
+"comment form with user data even on cached page. But the \"awaiting "
+"moderation\" message cannot be shown. If you have few commentators, you can "
+"disable this feature to get back the classical WordPress comment flow."
+msgstr ""
+
+#: options.php:403
+msgid "Cache only posts newer than"
+msgstr "Metti in cache solo i posto più recenti di"
+
+#: options.php:405
+msgid "days"
+msgstr "giorni"
+
+#: options.php:407
+msgid ""
+"Older posts wont be cached and stored resulting in a lower disk space usage. "
+"Useful when older posts have low traffic."
+msgstr ""
+"I post vecchi non verranno messi nella cache risparmiando spazio su disco."
+
+#: options.php:412
+msgid "When invalidation occurs invalidate even"
+msgstr "Quando una pagina viene tolta dalla cache togli anche"
+
+#: options.php:416
+msgid "The number of latest posts to invalidate when the home is invalidated."
+msgstr "Numero di post recenti da invalidate quando viene invalidata la home."
+
+#: options.php:421
+msgid "Agents to rejects"
+msgstr "User agent da ignorare"
+
+#: options.php:424
+msgid ""
+"Must be lower case and separated by the pipe (|) symbol. No single quotes or "
+"spaces!"
+msgstr ""
+
+#: options.php:432
+msgid "path on disk"
+msgstr "percorso su disco"
+
+#: options.php:434
+#, php-format
+msgid ""
+"Leave blank for default value. The .htaccess rules may not work with custom "
+"cache folder. You can even evaluate to leave this blank and create a "
+"symbolic link <code>wp-content/cache/lite-cache -&gt; [your folder]</code>. "
+"Your blog is located on <code><?php echo ABSPATH; ?></code>. A wrong "
+"configuration can destroy your blog."
+msgstr ""
+
+#: options.php:442
+msgid "Save"
+msgstr "Salva"
+
+#: options.php:443
+msgid "Totally delete the options"
+msgstr "Rimuovi tutte le opzioni"
+
+#: options.php:444
+msgid "Are you usre?"
+msgstr "Sei sicuro?"
+
+#: options.php:447
+msgid ""
+"To totally remove the plugin, delete the options and the follow the <a href="
+"\"http://www.satollo.net/plugins/lite-cache\" target=\"_blank\">dismissing "
+"steps</a>."
+msgstr ""
+"Per rimuove completamente il plugin vedi i <a href=\"http://www.satollo.net/"
+"plugins/lite-cache\" target=\"_blank\">passi per la rimozione</a>."
